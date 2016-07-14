@@ -1,0 +1,36 @@
+2 players
+
+game initialization
+- generate 10 random questions from 20 array
+- randomly assign 5 to each player
+
+- 1 question player 1 starts
+- true or false
+  - if correct - feedback correct - update player score
+  - switch player2
+    - display new question
+
+20 questions
+- randomize 10
+
+turns for each player = 5
+if both 5 then check score
+
+var game = function () {
+
+  function initialise() {
+
+  }
+
+  function playerchange {
+
+  }
+
+
+  function gamestart() {
+    clear()
+    initialize()
+  }
+}
+
+gamestart()
