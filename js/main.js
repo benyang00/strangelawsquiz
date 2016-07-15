@@ -73,8 +73,13 @@ $(document).ready(function() {
   var p1QnProg = 1; //Counter for current question for player 1
   var p2QnProg = 1; //Counter for current question for player 2
 
+  // $('body section:nth-child(2)').text('Click anywhere');
+  // $('body section:nth-child(3)').text('to Start!');
+
   var start = function() {
+    $('body section:nth-child(3)').html('<p>click anywhere to start</p>');
     $('html').click(function() {
+      $('body section:nth-child(3)').html('');
       createDivs();
     });
   };

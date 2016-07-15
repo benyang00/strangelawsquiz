@@ -20,6 +20,11 @@ body section:nth-child(3) {
   background-color: #1C1F33;
   color: #FFFFFF;
 }
+body section:nth-child(3) p {
+  background-color: #1C1F33;
+  color: #FFFFFF;
+  font: 1.5em helvetica;
+}
 .scoreboard {
   background-color: #F3B61F;
   color: #510D0A;
@@ -37,6 +42,7 @@ body section:nth-child(3) {
   text-align: center;
   font: 1.5em monospace;
   margin: 100px 20px;
+  text-transform: lowercase;
 }
 .p2respBtn{
   display: inline-block;
@@ -45,6 +51,7 @@ body section:nth-child(3) {
   text-align: center;
   font: 1.5em monospace;
   margin: 100px 20px;
+  text-transform: lowercase;
 }
 .scoreboard {
   height: 10%;
